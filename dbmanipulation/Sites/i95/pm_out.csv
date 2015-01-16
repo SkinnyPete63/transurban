@@ -1,0 +1,42 @@
+EXTSYS1,AMIS_PM,,EN
+LEADTIME,DESCRIPTION,FREQUENCY,FREQUNIT,JPNUM,LOCATION,NEXTDATE,PERSONGROUP,PMNUM,PRIORITY,SITEID,STATUS,WOSTATUS,WORKTYPE,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY,INTERVAL,JPS_JPNUM,JPS_ORGID,LEAD
+0,Mowing and Vegetation Control,4,MONTHS,3-A-01,i95,,,3-A-01,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Brush & Trees,1,MONTHS,3-A-02,i95,,,3-A-02,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Debris & Road Kill,1,DAYS,3-A-03,i95,,,3-A-03,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Litter,1,MONTHS,3-A-04,i95,,,3-A-04,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Illegal Signs and Structures,1,WEEKS,3-A-05,i95,,,3-A-05,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Concrete Barriers,1,WEEKS,3-A-06,i95,,,3-A-06,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Sound Walls and Barriers,1,WEEKS,3-A-07,i95,,,3-A-07,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Slopes,1,MONTHS,3-A-08,i95,,,3-A-08,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Fence,2,WEEKS,3-A-09,i95,,,3-A-09,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Crossovers and Police Parking Locations,1,MONTHS,3-A-10,i95,,,3-A-10,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Retaining Walls,1,MONTHS,3-A-11,i95,,,3-A-11,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Large and Small Pipes and Box Culverts ?36 sq. ft & ? 36 sq. ft,1,YEARS,3-B-01,i95,,,3-B-01,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,"Ditches, Paved",1,YEARS,3-B-02,i95,,,3-B-02,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,"Ditches, Unpaved",1,YEARS,3-B-03,i95,,,3-B-03,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Under Drains & Edge Drains,1,YEARS,3-B-04,i95,,,3-B-04,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Storm Drains & Drop Inlets,1,YEARS,3-B-05,i95,,,3-B-05,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,"Curb & Gutter, Curbing Raised, Concrete Median",2,WEEKS,3-B-06,i95,,,3-B-06,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Storm Water Management Pond/Linear Storm Water Management Areas,1,YEARS,3-B-07,i95,,,3-B-07,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Signs (static)-Post Mounted,1,WEEKS,3-C-01,i95,,,3-C-01,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Signs (static)-Overhead & Bridge Mounted,2,MONTHS,3-C-02,i95,,,3-C-02,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Pavement Markings,1,MONTHS,3-C-03,i95,,,3-C-03,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Pavement Markers (Raised & Recessed): ,2,MONTHS,3-C-04,i95,,,3-C-04,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Pavement Messages,1,MONTHS,3-C-05,i95,,,3-C-05,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Lighting-Roadway,2,WEEKS,3-C-06,i95,,,3-C-06,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Lighting-Signs,2,WEEKS,3-C-07,i95,,,3-C-07,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Lighting-Under Deck or Tunnel,2,WEEKS,3-C-08,i95,,,3-C-08,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Guardrail,1,WEEKS,3-C-09,i95,,,3-C-09,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Impact Attenuators,1,WEEKS,3-C-10,i95,,,3-C-10,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Object Markers & Delineators,2,MONTHS,3-C-11,i95,,,3-C-11,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Glare Foils,1,MONTHS,3-C-12,i95,,,3-C-12,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Flexible Pavements (Asphalt Concrete or Bituminous Concrete): ,1,DAYS,3-D-01,i95,,,3-D-01,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Paved Shoulders (Flexible or Rigid) & Rumble Strips,1,WEEKS,3-D-02,i95,,,3-D-02,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Unpaved Shoulders,2,WEEKS,3-D-03,i95,,,3-D-03,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Rigid Pavements (Hydraulic or Portland Cement Concrete): ,1,WEEKS,3-D-04,i95,,,3-D-04,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,"Deck (including railing system, parapet walls, joints, safety/sidewalks, fence & drainage system): ",1,WEEKS,3-E-01-01W,i95,,,3-E-01,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,"Superstructure (includes beams/girders, bearings, diaphragms, cross frames, stiffeners and connection plates): ",3,MONTHS,3-E-02-03M,i95,,,3-E-02,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,"Substructures (includes bearing seats, abutments, backwalls, piers, columns & caps): ",3,MONTHS,3-E-03-03M,i95,,,3-E-03,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Slope Protection,1,MONTHS,3-E-04-01M,i95,,,3-E-04,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Roadway Sweeping,4,MONTHS,3-F-03,i95,,,3-F-03,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts
+0,Graffiti Removal,1,MONTHS,3-F-04,i95,,,3-F-04,3,I95,ACTIVE,WSCH,PM,1,1,1,1,1,1,1,,,TUI95,lroberts

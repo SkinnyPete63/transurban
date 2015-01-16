@@ -1,0 +1,404 @@
+AU01677 ,12 M Routine Maint. of Grant St Vent Station Fan
+AU01677 ,
+AU01677 ,**COMPLETE JOBSTART BEFORE COMMENCEMENT OF WORK**
+AU01677 ,
+AU01677 ,WARNINGS:
+AU01677 ,1. DO NOT CARRY OUT THESE CHECKS  WHENEVER MORE THAN 2 FANS ARE
+AU01677 ,   OPERATIONAL
+AU01677 ,2. DO NOT ENTER THE AIRLOCK TO THE VENTILATION FAN ROOM ALONE.
+AU01677 ,   TWO OR MORE PEOPLE MUST BE PRESENT WHENEVER ANY  WORK  IS
+AU01677 ,   CARRIED OUT IN THIS AREA.
+AU01677 ,3. OBSERVE ALL NOTICES ON THE AIRLOCK DOORS
+AU01677 ,4. DO NOT ENTER A SMOKE DUCT UNLESS A PERMIT HAS BEEN OBTAINED
+AU01677 ,   FOR WORK IN THIS AREA.   TO CROSS THE DUCT A SERVICE LADDER
+AU01677 ,   MUST BE USED AT ALL TIMES
+AU01677 ,1. Obtain the Permit to Work for entry to the ventilation rooms
+AU01677 ,   and to interrupt operations.
+AU01677 ,2. Inform control room prior to commencing work. Maintain radio
+AU01677 ,   contact at all times.
+AU01677 ,"3. Reference manual:  ABB Installation, Operating & Maintenance"
+AU01677 ,   Instructions Manual(M-STG-VE-26059)
+AU01677 ,"4. Access to the Grant St ventilation station, on the mezzanine"
+AU01677 ,"   level, is via double locked doors on the stairway in Grant"
+AU01677 ,   St. adjacent to vent stack.  Access to substation 1 is
+AU01677 ,"   through the mezzanine level walkway north of the smoke duct,"
+AU01677 ,   then crossing over the smoke duct twice a using service
+AU01677 ,"   ladders to the roof of the substation, then down a service"
+AU01677 ,   ladder to the tunnel and then along the tunnel walkway to the
+AU01677 ,   substation.
+AU01677 ,"5. (a) On MCC in Substation No 1, switch one axial fan into"
+AU01677 ,"       operation, while maintenance is being carried out  on the"
+AU01677 ,",,   other fans.  Switch the AUTO/OFF/MAN selector switch to"
+AU01677 ,",,   the MANUAL position the REMOTE/OFF/LOCAL selector switch"
+AU01677 ,",,   to the REMOTE position then start the fan by pressing the"
+AU01677 ,",,   START pushbutton.   [_ _]"
+AU01677 ,   (b) Isolate ALL non-operational axial fans by switching the
+AU01677 ,",,   AUTO/OFF/MAN selector switches to the OFF position and"
+AU01677 ,",,   then carrying out electrical isolation procedures as set"
+AU01677 ,",,   out in Work Instruction TMI -3012 OP - 0103,  Low Voltage"
+AU01677 ,",,   Isolation Procedures."
+AU01677 ,6. Electrical checks in Substation No 1
+AU01677 ,   (a) Measure and record the insulation resistance on stator
+AU01677 ,",,   windings in """"Work Done"""" area of the Job Sheet.  [_ _]"
+AU01677 ,   (b) Check ammeter and record the reading for each phase in
+AU01677 ,",,   the work done area of the Job Sheet."
+AU01677 ,   (b) Inspect the control panel both internally and externally
+AU01677 ,",,   for damage, corrosion, evidence of moisture ingress,"
+AU01677 ,",,   accumulated dust and grime (clean as required).   [_ _]"
+AU01677 ,7. Fan Room Access
+AU01677 ,   (a) Enter the airlock first from the mezzanine level.   The
+AU01677 ,",,   airlock doors require considerable force to open due to"
+AU01677 ,",,   pressure differentials.  Equalize the corridor and fan"
+AU01677 ,",,   room pressures using the hatches in the wall before"
+AU01677 ,",,   entering the fan room."
+AU01677 ,",,   NOTE: HEARING AND EYE PROTECTION MUST BE WORN IN THE"
+AU01677 ,",,   VENTILATION FAN ROOM"
+AU01677 ,   (b) Check the CO levels in the fan room through the doorway
+AU01677 ,",,   before entering and at regular intervals while performing"
+AU01677 ,",,   the fan checks."
+AU01677 ,   (c) WARNING:  DO NOT PLACE ANY PART OF THE BODY OR MATERIALS
+AU01677 ,",,   WITHIN 1 METRE OF AN OPERATING FAN INLET GUARD."
+AU01677 ,",,   Airflow velocity is near 35 km/h."
+AU01677 ,8. Static Fan Checks for each fan.
+AU01677 ,   (a) Confirm that the fan on which maintenance is to be
+AU01677 ,",,   carried out on, is electrically isolated using the local"
+AU01677 ,",,   push button station, by depressing the emergency STOP"
+AU01677 ,",,   pushbutton."
+AU01677 ,   (b) Remove the entry cowl safety grill hatch and enter the
+AU01677 ,",,   fan inlet cowl."
+AU01677 ,"   (c) Check the impeller for dirt, wear on blade tips or blade"
+AU01677 ,",,   leading edges, as well as for any mechanical damage. [_ _]"
+AU01677 ,"   (d) Check all cables for security of fixings, damage"
+AU01677 ,",,  especially at the site of any functional penetrations.[_ _]"
+AU01677 ,   (e) Remove the inspection hatch on the side of the motor
+AU01677 ,",,   housing - Check for any grease discharged from the motor"
+AU01677 ,",,   bearings, excessive amounts of grease as well as any"
+AU01677 ,",,   noticeable colour change in the discharged grease.  Check"
+AU01677 ,",,   that the grease nipples are clean.  [_ _]"
+AU01677 ,   (f ) Examine both the motor connections and the motor
+AU01677 ,",,   internals for evidence of overheating.   [_ _]"
+AU01677 ,   (g) Carry out an insulation/resistance test of the motor and
+AU01677 ,",,   heater windings."
+AU01677 ,",,,,(i) Ensure fan motor is isolated."
+AU01677 ,",,,,(ii) At a suitable location, for each fan motor"
+AU01677 ,",,,,  Note: The motor winding heater for axial fans have been"
+AU01677 ,",,,,  isolated and are to remain isolated."
+AU01677 ,",,,,,,(a) The motor is disconnected as above instruction."
+AU01677 ,",,,,,,(b) Apply a reliable bridge to the three motor"
+AU01677 ,",,,,,,,,winding terminals."
+AU01677 ,",,,,(iii) Carry out an Insulation resistance test between the"
+AU01677 ,",,,,,,  motor windings and the winding heater bridge.  Record the result"
+AU01677 ,"in the """"Work Done"""" area."
+AU01677 ,",,,,(iv) Bridge the motor windings and the winding heater"
+AU01677 ,",,,,,, connections and carry out an Insulation resistance"
+AU01677 ,",,,,,, test between this common bridge and earth.  Record"
+AU01677 ,",,,,,, the result in the """"Work Done"""" area."
+AU01677 ,",,,,(v) Remove all temporary connections."
+AU01677 ,        (vi) Remove supply lines to the motor and carry out an
+AU01677 ,",,,,,, insulation resistance test on the motor windings,"
+AU01677 ,",,,,,, Between phase winding to phase winding and between"
+AU01677 ,",,,,,, each phase winding and earth.  Record results in the"
+AU01677 ,",,,,,, area of the Job sheet below"
+AU01677 ,",,,,(vii) If the heater was connected on arrival, then"
+AU01677 ,",,,,,, re-instate the heater connections,otherwise leave"
+AU01677 ,",,,,,, the motor winding heater terminations isolated."
+AU01677 ,",,,,(viii) Ensure fan motor is serviceable on completion."
+AU01677 ,",,,,(x)  Where any insulation resistance reading is less than"
+AU01677 ,",,,,,, 2 megohm, then Record n the area of the Job Sheet"
+AU01677 ,",,,,,, below and raise a new job for the outstanding works."
+AU01677 ,",,,,,, Include the Job Number of the new job in the"
+AU01677 ,",,,,,, Customer Order No.field as well as in the alternate."
+AU01677 ,",,,,,, Notify the Team Leader or his representative of any"
+AU01677 ,",,,,,, outstanding works."
+AU01677 ,   (h) Manually check the operation of the Rotork actuator and
+AU01677 ,",,   it's linkages, for the exit dampers, using the local"
+AU01677 ,",,   control panel switch.   [_ _]"
+AU01677 ,   (i) Always ensure the entry cowl safety grill to the fan is
+AU01677 ,",,   secured, in it's place, when the fan is unattended."
+AU01677 ,9. Running Fan Check and Lubrication
+AU01677 ,",,CAUTION:  ALLOW THE MOTOR TO COOL FOR ONE HOUR IF A START IS"
+AU01677 ,",,REQUIRED AFTER FOUR STARTS IN ONE HOUR."
+AU01677 ,"   (a) On completion of  the Static Fan Checks, return to"
+AU01677 ,",,   substation 1, then remove the safety tags, in accordance"
+AU01677 ,",,   with TMI-3012-SA-0103, then remove the fan motor isolation"
+AU01677 ,",,   at  the MCC."
+AU01677 ,",,  Note:  Ensure that only one non-operational fan is isolated"
+AU01677 ,",,  at any one time."
+AU01677 ,   (b) Switch the AUTO/OFF/MAN selector switch from the OFF
+AU01677 ,",,   position to the MANUAL and the REMOTE/OFF/LOCAL selector"
+AU01677 ,",,   switch from the REMOTE position to the LOCAL position."
+AU01677 ,"   (c) Return to the ventilation room; there start the fan, that"
+AU01677 ,",,   is being maintained, by releasing the local STOP"
+AU01677 ,",,   pushbutton at the fan and then pressing START pushbutton."
+AU01677 ,"   (d) Check that the outlet damper opens immediately the fan ,,"
+AU01677 ,  starts.
+AU01677 ,"   (e) Add Shell Stamina RL2 grease or equivalent, to the"
+AU01677 ,",,   bearings, only while the fan is running.  DE = 100gr,"
+AU01677 ,",,   NDE = 120gr."
+AU01677 ,"   (f) Remove the old grease, that was discharged from the"
+AU01677 ,",,   bearings, using the retrieval system.  Examine the grease"
+AU01677 ,",,   for changes of colour.   [_ _]"
+AU01677 ,   (g) Check the fan for any abnormal noises or vibrations.[_ _]
+AU01677 ,   (h) Shutdown the fan motor using the local EMERGENCY STOP
+AU01677 ,",,   pushbutton."
+AU01677 ,  (i)  Release the EMERGENCY STOP pushbutton.
+AU01677 ,"10. On completion, collect all tools and materials, to leave the"
+AU01677 ,",,fan room, again equalize the corridor and fan room pressures."
+AU01677 ,"11. (a)  In Substation No 1 remove all tags, in accordance with"
+AU01677 ,",,,, TMI-3012-SA-0103, then remove the motor isolation for"
+AU01677 ,",,,, all the fans at the MCC.   Return all the"
+AU01677 ,",,,, MOTE/OFF/LOCAL selector switches to the REMOTE position"
+AU01677 ,",,,, and the AUTO/OFF/MAN fan selector switches to the AUTO"
+AU01677 ,",,,, position."
+AU01677 ,",,(b)  Check that at least one fan is operational and that no"
+AU01677 ,",,,, alarms are present"
+AU01677 ,12. Record anything outside normal parameters in the area of the
+AU01677 ,",,,, Job Sheet below."
+AU01677 ,13. Notify the control room on completion of the job.
+AU01677 ,
+AU01677 ,Record Readings Below
+AU01677 ,
+AU01677 ,Results Insulation Resistance Tests
+AU01677 ,",,Fan ID,,,,,,|"
+AU01677 ,"Heater to Winding ,,|,,,,,,,,,,megohms"
+AU01677 ,"Winding & Heater ,,|,,,,,,,,,,megohms"
+AU01677 ,"Phase to Phase ,,,,|,,,,,,,,,,ohms"
+AU01677 ,"Phase to Earth,,,,|,,,,,,,,,,megohms"
+AU01677 ,
+AU01677 ,
+AU01677 ,
+AU01677 ,****Complete the following CityLink Asset Condition Rating****
+AU01677 ,
+AU01677 ,ASSET CONDITION RATING
+AU01677 ,
+AU01677 ,Rate the Condition of the Asset.
+AU01677 ,
+AU01677 ,Note:
+AU01677 ,
+AU01677 ,[ 1 ] - Excellent.
+AU01677 ,        Asset is new or in as new condition
+AU01677 ,
+AU01677 ,[ 2 ] - Good.
+AU01677 ,"        Asset is fully operational, well presented, performing"
+AU01677 ,        it's intended function.
+AU01677 ,
+AU01677 ,[ 3 ] - Fair.
+AU01677 ,        Asset is functional and operational but showing signs of
+AU01677 ,        deterioration that will result is some intervention
+AU01677 ,        works possibly within the next 12 months. May not be
+AU01677 ,        performing it's intended function to the full degree.
+AU01677 ,
+AU01677 ,[ 4 ] - Poor.
+AU01677 ,        Asset is functional and operational but showing major
+AU01677 ,        signs of deterioration that will require intervention
+AU01677 ,        works within the next 3 months. Not performing it's
+AU01677 ,        intended function.
+AU01677 ,
+AU01677 ,CONDITION RATING SCORE [_ _]
+AU01677 ,
+AU01677 ,"If the condition of asset is 3 or 4, record your observations"
+AU01677 ,in the Work Done area of the job sheet(photograph if possible).
+AU01677 ,
+AU01677 ,
+AU01677 ,12 M Routine Maint. of Grant St Vent Station Fan
+AU01677 ,
+AU01677 ,**COMPLETE JOBSTART BEFORE COMMENCEMENT OF WORK**
+AU01677 ,
+AU01677 ,WARNINGS:
+AU01677 ,1. DO NOT CARRY OUT THESE CHECKS  WHENEVER MORE THAN 2 FANS ARE
+AU01677 ,   OPERATIONAL
+AU01677 ,2. DO NOT ENTER THE AIRLOCK TO THE VENTILATION FAN ROOM ALONE.
+AU01677 ,   TWO OR MORE PEOPLE MUST BE PRESENT WHENEVER ANY  WORK  IS
+AU01677 ,   CARRIED OUT IN THIS AREA.
+AU01677 ,3. OBSERVE ALL NOTICES ON THE AIRLOCK DOORS
+AU01677 ,4. DO NOT ENTER A SMOKE DUCT UNLESS A PERMIT HAS BEEN OBTAINED
+AU01677 ,   FOR WORK IN THIS AREA.   TO CROSS THE DUCT A SERVICE LADDER
+AU01677 ,   MUST BE USED AT ALL TIMES
+AU01677 ,1. Obtain the Permit to Work for entry to the ventilation rooms
+AU01677 ,   and to interrupt operations.
+AU01677 ,2. Inform control room prior to commencing work. Maintain radio
+AU01677 ,   contact at all times.
+AU01677 ,"3. Reference manual:  ABB Installation, Operating & Maintenance"
+AU01677 ,   Instructions Manual(M-STG-VE-26059)
+AU01677 ,"4. Access to the Grant St ventilation station, on the mezzanine"
+AU01677 ,"   level, is via double locked doors on the stairway in Grant"
+AU01677 ,   St. adjacent to vent stack.  Access to substation 1 is
+AU01677 ,"   through the mezzanine level walkway north of the smoke duct,"
+AU01677 ,   then crossing over the smoke duct twice a using service
+AU01677 ,"   ladders to the roof of the substation, then down a service"
+AU01677 ,   ladder to the tunnel and then along the tunnel walkway to the
+AU01677 ,   substation.
+AU01677 ,"5. (a) On MCC in Substation No 1, switch one axial fan into"
+AU01677 ,"       operation, while maintenance is being carried out  on the"
+AU01677 ,",,   other fans.  Switch the AUTO/OFF/MAN selector switch to"
+AU01677 ,",,   the MANUAL position the REMOTE/OFF/LOCAL selector switch"
+AU01677 ,",,   to the REMOTE position then start the fan by pressing the"
+AU01677 ,",,   START pushbutton.   [_ _]"
+AU01677 ,   (b) Isolate ALL non-operational axial fans by switching the
+AU01677 ,",,   AUTO/OFF/MAN selector switches to the OFF position and"
+AU01677 ,",,   then carrying out electrical isolation procedures as set"
+AU01677 ,",,   out in Work Instruction TMI -3012 OP - 0103,  Low Voltage"
+AU01677 ,",,   Isolation Procedures."
+AU01677 ,6. Electrical checks in Substation No 1
+AU01677 ,   (a) Measure and record the insulation resistance on stator
+AU01677 ,",,   windings in """"Work Done"""" area of the Job Sheet.  [_ _]"
+AU01677 ,   (b) Check ammeter and record the reading for each phase in
+AU01677 ,",,   the work done area of the Job Sheet."
+AU01677 ,   (b) Inspect the control panel both internally and externally
+AU01677 ,",,   for damage, corrosion, evidence of moisture ingress,"
+AU01677 ,",,   accumulated dust and grime (clean as required).   [_ _]"
+AU01677 ,7. Fan Room Access
+AU01677 ,   (a) Enter the airlock first from the mezzanine level.   The
+AU01677 ,",,   airlock doors require considerable force to open due to"
+AU01677 ,",,   pressure differentials.  Equalize the corridor and fan"
+AU01677 ,",,   room pressures using the hatches in the wall before"
+AU01677 ,",,   entering the fan room."
+AU01677 ,",,   NOTE: HEARING AND EYE PROTECTION MUST BE WORN IN THE"
+AU01677 ,",,   VENTILATION FAN ROOM"
+AU01677 ,   (b) Check the CO levels in the fan room through the doorway
+AU01677 ,",,   before entering and at regular intervals while performing"
+AU01677 ,",,   the fan checks."
+AU01677 ,   (c) WARNING:  DO NOT PLACE ANY PART OF THE BODY OR MATERIALS
+AU01677 ,",,   WITHIN 1 METRE OF AN OPERATING FAN INLET GUARD."
+AU01677 ,",,   Airflow velocity is near 35 km/h."
+AU01677 ,8. Static Fan Checks for each fan.
+AU01677 ,   (a) Confirm that the fan on which maintenance is to be
+AU01677 ,",,   carried out on, is electrically isolated using the local"
+AU01677 ,",,   push button station, by depressing the emergency STOP"
+AU01677 ,",,   pushbutton."
+AU01677 ,   (b) Remove the entry cowl safety grill hatch and enter the
+AU01677 ,",,   fan inlet cowl."
+AU01677 ,"   (c) Check the impeller for dirt, wear on blade tips or blade"
+AU01677 ,",,   leading edges, as well as for any mechanical damage. [_ _]"
+AU01677 ,"   (d) Check all cables for security of fixings, damage"
+AU01677 ,",,  especially at the site of any functional penetrations.[_ _]"
+AU01677 ,   (e) Remove the inspection hatch on the side of the motor
+AU01677 ,",,   housing - Check for any grease discharged from the motor"
+AU01677 ,",,   bearings, excessive amounts of grease as well as any"
+AU01677 ,",,   noticeable colour change in the discharged grease.  Check"
+AU01677 ,",,   that the grease nipples are clean.  [_ _]"
+AU01677 ,   (f ) Examine both the motor connections and the motor
+AU01677 ,",,   internals for evidence of overheating.   [_ _]"
+AU01677 ,   (g) Carry out an insulation/resistance test of the motor and
+AU01677 ,",,   heater windings."
+AU01677 ,",,,,(i) Ensure fan motor is isolated."
+AU01677 ,",,,,(ii) At a suitable location, for each fan motor"
+AU01677 ,",,,,  Note: The motor winding heater for axial fans have been"
+AU01677 ,",,,,  isolated and are to remain isolated."
+AU01677 ,",,,,,,(a) The motor is disconnected as above instruction."
+AU01677 ,",,,,,,(b) Apply a reliable bridge to the three motor"
+AU01677 ,",,,,,,,,winding terminals."
+AU01677 ,",,,,(iii) Carry out an Insulation resistance test between the"
+AU01677 ,",,,,,,  motor windings and the winding heater bridge.  Record the result"
+AU01677 ,"in the """"Work Done"""" area."
+AU01677 ,",,,,(iv) Bridge the motor windings and the winding heater"
+AU01677 ,",,,,,, connections and carry out an Insulation resistance"
+AU01677 ,",,,,,, test between this common bridge and earth.  Record"
+AU01677 ,",,,,,, the result in the """"Work Done"""" area."
+AU01677 ,",,,,(v) Remove all temporary connections."
+AU01677 ,        (vi) Remove supply lines to the motor and carry out an
+AU01677 ,",,,,,, insulation resistance test on the motor windings,"
+AU01677 ,",,,,,, Between phase winding to phase winding and between"
+AU01677 ,",,,,,, each phase winding and earth.  Record results in the"
+AU01677 ,",,,,,, area of the Job sheet below"
+AU01677 ,",,,,(vii) If the heater was connected on arrival, then"
+AU01677 ,",,,,,, re-instate the heater connections,otherwise leave"
+AU01677 ,",,,,,, the motor winding heater terminations isolated."
+AU01677 ,",,,,(viii) Ensure fan motor is serviceable on completion."
+AU01677 ,",,,,(x)  Where any insulation resistance reading is less than"
+AU01677 ,",,,,,, 2 megohm, then Record n the area of the Job Sheet"
+AU01677 ,",,,,,, below and raise a new job for the outstanding works."
+AU01677 ,",,,,,, Include the Job Number of the new job in the"
+AU01677 ,",,,,,, Customer Order No.field as well as in the alternate."
+AU01677 ,",,,,,, Notify the Team Leader or his representative of any"
+AU01677 ,",,,,,, outstanding works."
+AU01677 ,   (h) Manually check the operation of the Rotork actuator and
+AU01677 ,",,   it's linkages, for the exit dampers, using the local"
+AU01677 ,",,   control panel switch.   [_ _]"
+AU01677 ,   (i) Always ensure the entry cowl safety grill to the fan is
+AU01677 ,",,   secured, in it's place, when the fan is unattended."
+AU01677 ,9. Running Fan Check and Lubrication
+AU01677 ,",,CAUTION:  ALLOW THE MOTOR TO COOL FOR ONE HOUR IF A START IS"
+AU01677 ,",,REQUIRED AFTER FOUR STARTS IN ONE HOUR."
+AU01677 ,"   (a) On completion of  the Static Fan Checks, return to"
+AU01677 ,",,   substation 1, then remove the safety tags, in accordance"
+AU01677 ,",,   with TMI-3012-SA-0103, then remove the fan motor isolation"
+AU01677 ,",,   at  the MCC."
+AU01677 ,",,  Note:  Ensure that only one non-operational fan is isolated"
+AU01677 ,",,  at any one time."
+AU01677 ,   (b) Switch the AUTO/OFF/MAN selector switch from the OFF
+AU01677 ,",,   position to the MANUAL and the REMOTE/OFF/LOCAL selector"
+AU01677 ,",,   switch from the REMOTE position to the LOCAL position."
+AU01677 ,"   (c) Return to the ventilation room; there start the fan, that"
+AU01677 ,",,   is being maintained, by releasing the local STOP"
+AU01677 ,",,   pushbutton at the fan and then pressing START pushbutton."
+AU01677 ,"   (d) Check that the outlet damper opens immediately the fan ,,"
+AU01677 ,  starts.
+AU01677 ,"   (e) Add Shell Stamina RL2 grease or equivalent, to the"
+AU01677 ,",,   bearings, only while the fan is running.  DE = 100gr,"
+AU01677 ,",,   NDE = 120gr."
+AU01677 ,"   (f) Remove the old grease, that was discharged from the"
+AU01677 ,",,   bearings, using the retrieval system.  Examine the grease"
+AU01677 ,",,   for changes of colour.   [_ _]"
+AU01677 ,   (g) Check the fan for any abnormal noises or vibrations.[_ _]
+AU01677 ,   (h) Shutdown the fan motor using the local EMERGENCY STOP
+AU01677 ,",,   pushbutton."
+AU01677 ,  (i)  Release the EMERGENCY STOP pushbutton.
+AU01677 ,"10. On completion, collect all tools and materials, to leave the"
+AU01677 ,",,fan room, again equalize the corridor and fan room pressures."
+AU01677 ,"11. (a)  In Substation No 1 remove all tags, in accordance with"
+AU01677 ,",,,, TMI-3012-SA-0103, then remove the motor isolation for"
+AU01677 ,",,,, all the fans at the MCC.   Return all the"
+AU01677 ,",,,, MOTE/OFF/LOCAL selector switches to the REMOTE position"
+AU01677 ,",,,, and the AUTO/OFF/MAN fan selector switches to the AUTO"
+AU01677 ,",,,, position."
+AU01677 ,",,(b)  Check that at least one fan is operational and that no"
+AU01677 ,",,,, alarms are present"
+AU01677 ,12. Record anything outside normal parameters in the area of the
+AU01677 ,",,,, Job Sheet below."
+AU01677 ,13. Notify the control room on completion of the job.
+AU01677 ,
+AU01677 ,Record Readings Below
+AU01677 ,
+AU01677 ,Results Insulation Resistance Tests
+AU01677 ,",,Fan ID,,,,,,|"
+AU01677 ,"Heater to Winding ,,|,,,,,,,,,,megohms"
+AU01677 ,"Winding & Heater ,,|,,,,,,,,,,megohms"
+AU01677 ,"Phase to Phase ,,,,|,,,,,,,,,,ohms"
+AU01677 ,"Phase to Earth,,,,|,,,,,,,,,,megohms"
+AU01677 ,
+AU01677 ,
+AU01677 ,
+AU01677 ,****Complete the following CityLink Asset Condition Rating****
+AU01677 ,
+AU01677 ,ASSET CONDITION RATING
+AU01677 ,
+AU01677 ,Rate the Condition of the Asset.
+AU01677 ,
+AU01677 ,Note:
+AU01677 ,
+AU01677 ,[ 1 ] - Excellent.
+AU01677 ,        Asset is new or in as new condition
+AU01677 ,
+AU01677 ,[ 2 ] - Good.
+AU01677 ,"        Asset is fully operational, well presented, performing"
+AU01677 ,        it's intended function.
+AU01677 ,
+AU01677 ,[ 3 ] - Fair.
+AU01677 ,        Asset is functional and operational but showing signs of
+AU01677 ,        deterioration that will result is some intervention
+AU01677 ,        works possibly within the next 12 months. May not be
+AU01677 ,        performing it's intended function to the full degree.
+AU01677 ,
+AU01677 ,[ 4 ] - Poor.
+AU01677 ,        Asset is functional and operational but showing major
+AU01677 ,        signs of deterioration that will require intervention
+AU01677 ,        works within the next 3 months. Not performing it's
+AU01677 ,        intended function.
+AU01677 ,
+AU01677 ,CONDITION RATING SCORE [_ _]
+AU01677 ,
+AU01677 ,"If the condition of asset is 3 or 4, record your observations"
+AU01677 ,in the Work Done area of the job sheet(photograph if possible).
+AU01677 ,
+AU01677 ,

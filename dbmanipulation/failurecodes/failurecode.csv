@@ -1,0 +1,49 @@
+ELECTRICAL,"Electrical Distribution and switching equipment including lighting & conduits, cable and wires etc."
+ELECTRONIC,"Cameras, computers, sensors, ETTM, fire & life, FEC’s, fibre, etc."
+HYDRAULIC,"Hydraulic and piping  network, mains water, drainage systems including fixture & fittings, pits and storage tanks, etc."
+LANDSCAPING,"Dead animals, Vegetation issues, Noxious Weed problems, Fallen/broken trees, Debris, Graffiti, Dumped rubbish, etc."
+MECHANICAL,"Rotating Equipment: pumps, fans, motors, generators, engines, HVAC, etc."
+PAVEMENT,"Pavement, line marking and symbols and RPM’s, etc."
+STRUCTURE,"Structural concrete and metal  systems  such as bridges, signs, buildings, tunnel, fence, expansion joints, doors (Inc.: Fire), etc."
+ANIMAL,Dead or Live Animals
+APPEARANCE,Appearance and cleanness problem
+BLEEDING,Bleeding /Delamination
+BLOCKED,Blocked
+BROKEN-CRACKED,Broken/Cracked  part
+COMPONENT-FAILURE,Faulty  or Blown up component
+CORROSION-ERROSION ,Corrosion  and Errosion
+CRACKED,Cracked 
+CUT-DISCONNECTED,Cut  or disconnected 
+DEBRIS-RUBBISH,Debris or dump rubbish
+DEFORMED,Deformed 
+EDGE,Edge failures
+ELECTRICAL-ISSUE,Electrical problem
+GRAFFITI,Graffiti
+HIGH-TEMP,High temperature
+INSULATION,Insulation problem
+INTEGRITY,Integrity issue
+JAMMED,"Not moving, stoped or jammed"
+LEAKAGE,Leaking  (water or other liquids)
+LOOSE ,"Loose (either connection , component or structure)"
+PERFORMANCE-ISSUE,Low or bad performance
+PHYSICAL-DAMAGE,"Physical or Mechanical problems (e.g. got hit, deformed, bent)"
+MISSING-COMPONENT,Missing component
+DISPLACEMENT,Displaced/moved
+NO-RESPONSE,"No Response (for electronical devices), not operating"
+POTHOLE,pothole
+POWER-LOSS,Loss of source of Power
+RUTTING,Deformation/water ponding/Rutting
+SETTING,Setup/Adjustment  problem
+SKID,Skid resistance problem
+ROUGHNESS,Roughness problem- Includes ondulation
+VANDALISM,Vandalism
+VEGETATION,Vegetation
+VIBRATE-NOISE,Vibration/ Noise
+NOXIOUS,Noxious weed
+FALLEN TREE,Fallen or broken tree
+OVERFLOW,Overflow
+DIRTY,Dirty
+MISSING-ITEM,Missing items (to be used for line markers)
+NOT-OPERATIONAL,Not operational (to be used for mechanical and electrical systems)
+REFLECTIVITY,Reflectivity (to be used for line markers )
+TRIPPED,"Tripped due to overload, current or temperature."

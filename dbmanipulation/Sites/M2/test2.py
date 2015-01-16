@@ -1,0 +1,2 @@
+mystr = '½'
+print mystr
