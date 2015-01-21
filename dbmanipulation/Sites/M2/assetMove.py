@@ -36,7 +36,6 @@ def newloc():
     global wsm, assetmap
     
     num_rows = wsm.nrows - 1
-    mun_cols = wsm.ncols
     
     curr_row = 0
     while curr_row <= num_rows:
@@ -65,7 +64,6 @@ def create_default():
         
 def get_assets():
     global assets_top, assets_other, wsa, defasset, assetmap, notmapped, assetid, holdinglocation
-    ds = 1
     num_rows = wsa.nrows - 1
     curr_row = 2
     
@@ -99,21 +97,13 @@ def get_assets():
                 assets_other[thisasset.ASSET_ASSETNUM] = thisasset
         curr_row += 1
         
-def output_errors():
-    global notmapped, site
-    with open(errorpath + site + '_' + 'not_mapped.csv', 'wb') as f:
-        writer = csv.writer(f)
-         
-        for k, v in notmapped.iteritems():
-            writer.writerow([k])
-
 def fixlist(mylist):
     for index, item in enumerate(mylist):
         if type(item) is float :
             mylist[index] = "%.*f" % (0, item )
     return mylist
 
-def loadfile(dict, fname):
+def loadfile(dictry, fname):
     global fldlist, l1
     templist = []
     with open(outpath + site + '_' + fname, 'wb') as f:
@@ -122,7 +112,7 @@ def loadfile(dict, fname):
         for x in range(0, len(fldlist)):
             templist.append(fldlist[x])
         writer.writerow(templist)
-        for k,v in dict.iteritems():
+        for v in dictry.values():
             templist = []
             for x in range(0, len(fldlist)):
                 if getattr(v, fldlist[x]) in [0.0, 1.0]:
