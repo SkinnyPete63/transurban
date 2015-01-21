@@ -19,8 +19,14 @@ def newloc(wsm):
     
     curr_row = 0
     while curr_row <= num_rows:
-        assetmap[wsm.cell_value(curr_row, 0)] = wsm.cell_value(curr_row, 1)
+        try:
+            assert isinstance(wsm.cell_value(curr_row, 0), float)
+            assetmap[str(int(wsm.cell_value(curr_row, 0)))] = wsm.cell_value(curr_row, 1)
+        except:
+            assetmap[wsm.cell_value(curr_row, 0)] = wsm.cell_value(curr_row, 1)
         curr_row += 1
+    #print assetmap['6589']
+    #stop
     return assetmap
 
 def get_flds(wsa):
@@ -49,14 +55,15 @@ def get_max_assetid():
     with session_scope() as session:
         return session.query(ms.maxreserved).filter(ms.sequencename == 'ASSETIDSEQ').one()[0]
     
-def get_assets(wsa, defasset, assetmap, holdinglocation, fldlist, site, move = False):
+def get_assets(wsa, defasset, assetmap, holdinglocation, fldlist, site):
+    #print assetmap['2810']
+    #stop
     assets_top = {}
     assets_other = {}
     notmapped = {}
     num_rows = wsa.nrows - 1
     curr_row = 2
-    ds = 1
-    assetid = get_max_assetid()
+
     while curr_row <= num_rows:
         thisasset = copy.copy(defasset)
         
@@ -65,19 +72,20 @@ def get_assets(wsa, defasset, assetmap, holdinglocation, fldlist, site, move = F
                 setattr(thisasset, v, '')
             elif v in ['ASSET_LOCATION']:
                 try:
-                    setattr(thisasset, v, assetmap[thisasset.ASSET_ASSETNUM])
+                    if type(wsa.cell_value(curr_row, 1)) is float:
+                        setattr(thisasset, v, assetmap[str(int(wsa.cell_value(curr_row, 1)))])
+                    else:
+                        setattr(thisasset, v, assetmap[wsa.cell_value(curr_row, 1)])
                 except KeyError:
+                    #print 'map not found for asset ' + str(wsa.cell_value(curr_row, 1))
+                    #print type(wsa.cell_value(curr_row, 1))
+                    #print assetmap
+                    #stop
                     setattr(thisasset, v, None)
             elif v in ['ASSET_NEWSITE', 'ASSET_SITEID']:
                 setattr(thisasset, v, site)
             else:
                 setattr(thisasset, v, wsa.cell_value(curr_row, k))
-        if move:
-            thisasset.ASSET_ASSETID = assetid
-            assetid += 1
-            thisasset.DISPLAYSEQUENCE = ds
-            ds += 1
-
         if thisasset.ASSET_PRIORITY == 0 : thisasset.ASSET_PRIORITY = 1
         
         if thisasset.ASSET_LOCATION == None:
