@@ -35,3 +35,5 @@ if __name__ == '__main__':
     assets_top, assets_other, notmapped = get_assets(wsa, defasset, assetmap, holdinglocation, fldlist, site)
     #print notmapped
     loadfile(fldlist, l1, outpath, site, assets_top, topfile)
+    loadfile(fldlist, l1, outpath, site, assets_other, otherfile)
+    loadfile(fldlist, l1, outpath, site, notmapped, notmappedfile)
