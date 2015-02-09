@@ -10,12 +10,12 @@ so added decode and replace to get rid of those.
 More odd characters, removed
 '''
 import csv
-import chardet    
+#import chardet    
 
 
-inpath = "\\pch\\M2"
-infile = "locations_raw.csv"
-outfile = "locations.csv"
+inpath = "\\pch\\dataload\\raw\\"
+infile = "M2_locations_raw.csv"
+outfile = "M2_locations.csv"
 fldlist = []
 locations = {}
 header = ['EXTSYS1', 'AMIS_LOCATIONS', None,'EN']
@@ -28,7 +28,7 @@ class m2loc:
 
 
 
-with open(inpath + "\\" + infile, "rb") as f:
+with open(inpath + infile, "rb") as f:
     reader = csv.reader(f)
     rownum = 0
     for row in reader:
@@ -58,7 +58,7 @@ with open(inpath + "\\" + infile, "rb") as f:
         rownum += 1
         
 #write the output file
-with open(inpath + "\\" + outfile, "wb") as f:
+with open(inpath + outfile, "wb") as f:
     #first and second lines taken directly from input file
     writer = csv.writer(f)
     writer.writerow(header)

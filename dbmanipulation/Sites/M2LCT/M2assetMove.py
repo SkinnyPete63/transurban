@@ -2,13 +2,13 @@ import csv
 import xlrd
 import copy
 
-inpath = '\\pch\\M2\\raw\\'
+inpath = '\\pch\\dataload\\raw\\'
 outpath = '\\pch\\dataload\\ready\\'
 errorpath = '\\pch\\dataload\\errors\\'
-infile = '\\assets.xlsx'
+infile = 'assets.xlsx'
 topfile = 'assets_top.csv'
 otherfile = 'assets_other.csv'
-notmappedfile = 'asset_move_to_dummy.csv'
+notmappedfile = 'asset_move_to_mapped.csv'
 
 site = 'M2'
 
@@ -16,12 +16,15 @@ wb = xlrd.open_workbook(inpath + infile)
 wsa = wb.sheet_by_name('Assets')
 wsm = wb.sheet_by_name('map')
 wsd = wb.sheet_by_name('default')
+wsalm = wb.sheet_by_name('asset_loc_map')
 
 fldlist = {}
 assets_top = {}
 assets_other = {}
 assetmap = {}
-notmapped = {}
+assetMapOld = {}
+notmapped = []
+
 #assetid = 80000
 l1 = ['EXTSYS1','AMIS_ASSET_R01', '', 'EN']
 holdinglocation = 'DUMMY'
@@ -32,15 +35,29 @@ class m2asset:
 
 defasset = m2asset()
 
+def oldLocMap():
+    global wsalm, assetMapOld
+    
+    num_rows = wsalm.nrows - 1
+    
+    curr_row = 0
+    while curr_row <= num_rows:
+        assetMapOld[wsalm.cell_value(curr_row, 0)] = wsalm.cell_value(curr_row, 1)
+        curr_row += 1
+        
 def newloc():
+    '''
+    Creates dictionary assetmap  which is the asset num with its new location
+    '''
     global wsm, assetmap
     
     num_rows = wsm.nrows - 1
     
-    curr_row = 0
+    curr_row = 1
     while curr_row <= num_rows:
         assetmap[wsm.cell_value(curr_row, 0)] = wsm.cell_value(curr_row, 1)
         curr_row += 1
+
 
 def get_flds():
     global wsa, fldlist
@@ -63,11 +80,15 @@ def create_default():
         curr_col += 1
         
 def get_assets():
-    global assets_top, assets_other, wsa, defasset, assetmap, notmapped, assetid, holdinglocation
+    '''
+    
+    '''
+    global assets_top, assets_other, wsa, defasset, assetmap, notmapped, assetid
     num_rows = wsa.nrows - 1
     curr_row = 2
     
     while curr_row <= num_rows:
+#        assetRemap = False
         thisasset = copy.copy(defasset)
         
         for k,v in fldlist.iteritems():
@@ -77,7 +98,13 @@ def get_assets():
                 try:
                     setattr(thisasset, v, assetmap[thisasset.ASSET_ASSETNUM])
                 except KeyError:
-                    setattr(thisasset, v, None)
+                    #print thisasset.ASSET_ASSETNUM
+                    #stop
+                    try:
+                        setattr(thisasset, v, assetMapOld[thisasset.ASSET_LOCATION])
+                    except KeyError:
+                        notmapped.append(thisasset.ASSET_ASSETNUM)
+#                    assetRemap = True
             elif v in ['ASSET_NEWSITE', 'ASSET_SITEID']:
                 setattr(thisasset, v, site)
             else:
@@ -87,9 +114,8 @@ def get_assets():
         #thisasset.DISPLAYSEQUENCE = ds
         #ds += 1
         if thisasset.ASSET_PRIORITY == 0 : thisasset.ASSET_PRIORITY = 1
-        if thisasset.ASSET_LOCATION == None:
-            thisasset.ASSET_LOCATION = holdinglocation
-            notmapped[thisasset.ASSET_ASSETNUM] = thisasset
+#        if assetRemap:
+#            notmapped[thisasset.ASSET_ASSETNUM] = thisasset
         else:
             if thisasset.ASSET_PARENT == '' or thisasset.ASSET_PARENT == None:
                 assets_top[thisasset.ASSET_ASSETNUM] = thisasset
@@ -139,4 +165,5 @@ if __name__ == '__main__':
     #output_errors()
     loadfile(assets_top, topfile)
     loadfile(assets_other, otherfile)
-    loadfile(notmapped, notmappedfile)
+    #loadfile(notmapped, notmappedfile)
+    print len(notmapped)

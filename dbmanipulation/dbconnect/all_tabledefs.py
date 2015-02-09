@@ -1214,7 +1214,7 @@ class JOBPLANSPEC(Base):
 
 class JOBTASK(Base):
 	__table__ = Table('JOBTASK', metadata, autoload=True)
-	__mapper_args__ = {'primary_key':[__table__.c.jpnum, __table__.c.jptask, __table__.c.orgid, __table__.c.pluscjprevnum, __table__.c.siteid]}
+	__mapper_args__ = {'primary_key':[__table__.c.jobtaskid]}
 
 class JOBTASKSPEC(Base):
 	__table__ = Table('JOBTASKSPEC', metadata, autoload=True)
